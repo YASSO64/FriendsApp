@@ -14,13 +14,29 @@
 		D1955D5E2044055400858A7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1955D5D2044055400858A7A /* main.m */; };
 		D1955D622044055400858A7A /* JETSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1955D612044055400858A7A /* JETSAppDelegate.m */; };
 		D1955D652044055400858A7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1955D632044055400858A7A /* Main.storyboard */; };
-		D1955D682044055400858A7A /* JETSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1955D672044055400858A7A /* JETSViewController.m */; };
 		D1955D6A2044055400858A7A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1955D692044055400858A7A /* Images.xcassets */; };
 		D1955D712044055400858A7A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1955D702044055400858A7A /* XCTest.framework */; };
 		D1955D722044055400858A7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1955D512044055400858A7A /* Foundation.framework */; };
 		D1955D732044055400858A7A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1955D552044055400858A7A /* UIKit.framework */; };
 		D1955D7B2044055400858A7A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D1955D792044055400858A7A /* InfoPlist.strings */; };
 		D1955D7D2044055400858A7A /* FriendsAppBySqliteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1955D7C2044055400858A7A /* FriendsAppBySqliteTests.m */; };
+		D1955D88204405A300858A7A /* Friend.m in Sources */ = {isa = PBXBuildFile; fileRef = D1955D87204405A300858A7A /* Friend.m */; };
+		D1955D9120440AF400858A7A /* AddFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1955D9020440AF400858A7A /* AddFriendViewController.m */; };
+		D1955D9420440B5800858A7A /* DisplayFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1955D9320440B5800858A7A /* DisplayFriendsViewController.m */; };
+		D1955D982044188700858A7A /* jets.png in Resources */ = {isa = PBXBuildFile; fileRef = D1955D972044188700858A7A /* jets.png */; };
+		D1955D9C20441E8300858A7A /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D1955D9B20441E8300858A7A /* libsqlite3.dylib */; };
+		D1955D9F20444DC200858A7A /* AddImgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1955D9E20444DC200858A7A /* AddImgViewController.m */; };
+		D199304D204466C200963DB5 /* add-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D199304C204466C200963DB5 /* add-icon.png */; };
+		D1995EDF20456ABE007E6887 /* DbManagement.m in Sources */ = {isa = PBXBuildFile; fileRef = D1995EDE20456ABE007E6887 /* DbManagement.m */; };
+		D19E1FC42046097F00AD2243 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D19E1FC32046097F00AD2243 /* DetailsViewController.m */; };
+		D19E1FC720461E8900AD2243 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D19E1FC620461E8900AD2243 /* MapViewController.m */; };
+		D19E1FC920461F6200AD2243 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D19E1FC820461F6200AD2243 /* MapKit.framework */; };
+		D19E1FCC2046222100AD2243 /* MapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = D19E1FCB2046222100AD2243 /* MapAnnotation.m */; };
+		D1E697CC20445B70008A85E9 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D1E697C720445B70008A85E9 /* 1.jpg */; };
+		D1E697CD20445B70008A85E9 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D1E697C820445B70008A85E9 /* 2.jpg */; };
+		D1E697CE20445B70008A85E9 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D1E697C920445B70008A85E9 /* 3.jpg */; };
+		D1E697CF20445B70008A85E9 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D1E697CA20445B70008A85E9 /* 4.jpg */; };
+		D1E697D020445B70008A85E9 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D1E697CB20445B70008A85E9 /* 5.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +61,40 @@
 		D1955D602044055400858A7A /* JETSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JETSAppDelegate.h; sourceTree = "<group>"; };
 		D1955D612044055400858A7A /* JETSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JETSAppDelegate.m; sourceTree = "<group>"; };
 		D1955D642044055400858A7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D1955D662044055400858A7A /* JETSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JETSViewController.h; sourceTree = "<group>"; };
-		D1955D672044055400858A7A /* JETSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JETSViewController.m; sourceTree = "<group>"; };
 		D1955D692044055400858A7A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D1955D6F2044055400858A7A /* FriendsAppBySqliteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FriendsAppBySqliteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1955D702044055400858A7A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D1955D782044055400858A7A /* FriendsAppBySqliteTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FriendsAppBySqliteTests-Info.plist"; sourceTree = "<group>"; };
 		D1955D7A2044055400858A7A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D1955D7C2044055400858A7A /* FriendsAppBySqliteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FriendsAppBySqliteTests.m; sourceTree = "<group>"; };
+		D1955D86204405A300858A7A /* Friend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Friend.h; path = ../../friendsApp/friendsApp/Friend.h; sourceTree = "<group>"; };
+		D1955D87204405A300858A7A /* Friend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Friend.m; path = ../../friendsApp/friendsApp/Friend.m; sourceTree = "<group>"; };
+		D1955D8F20440AF400858A7A /* AddFriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddFriendViewController.h; sourceTree = "<group>"; };
+		D1955D9020440AF400858A7A /* AddFriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddFriendViewController.m; sourceTree = "<group>"; };
+		D1955D9220440B5800858A7A /* DisplayFriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayFriendsViewController.h; sourceTree = "<group>"; };
+		D1955D9320440B5800858A7A /* DisplayFriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayFriendsViewController.m; sourceTree = "<group>"; };
+		D1955D972044188700858A7A /* jets.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jets.png; sourceTree = "<group>"; };
+		D1955D9B20441E8300858A7A /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		D1955D9D20444DC200858A7A /* AddImgViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddImgViewController.h; sourceTree = "<group>"; };
+		D1955D9E20444DC200858A7A /* AddImgViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddImgViewController.m; sourceTree = "<group>"; };
+		D199304C204466C200963DB5 /* add-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "add-icon.png"; path = "../../../../../../Volumes/VMware Shared Folders/shared/add-icon.png"; sourceTree = "<group>"; };
+		D1995EDC20454282007E6887 /* SetImgNameProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetImgNameProtocol.h; sourceTree = "<group>"; };
+		D1995EDD20456ABE007E6887 /* DbManagement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DbManagement.h; sourceTree = "<group>"; };
+		D1995EDE20456ABE007E6887 /* DbManagement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DbManagement.m; sourceTree = "<group>"; };
+		D1995EE020456EE2007E6887 /* UpdateFriendsProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UpdateFriendsProtocol.h; sourceTree = "<group>"; };
+		D19E1FC22046097F00AD2243 /* DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		D19E1FC32046097F00AD2243 /* DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
+		D19E1FC520461E8900AD2243 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		D19E1FC620461E8900AD2243 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		D19E1FC820461F6200AD2243 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		D19E1FCA2046222100AD2243 /* MapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapAnnotation.h; sourceTree = "<group>"; };
+		D19E1FCB2046222100AD2243 /* MapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapAnnotation.m; sourceTree = "<group>"; };
+		D1B9313B2046D48700E10E7B /* LongitudeAndLatitudeProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LongitudeAndLatitudeProtocol.h; sourceTree = "<group>"; };
+		D1E697C720445B70008A85E9 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1.jpg; path = "../../../../Downloads/DFImageManager-master/Demo/DFImageManager/Resources/1.jpg"; sourceTree = "<group>"; };
+		D1E697C820445B70008A85E9 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 2.jpg; path = "../../../../Downloads/DFImageManager-master/Demo/DFImageManager/Resources/2.jpg"; sourceTree = "<group>"; };
+		D1E697C920445B70008A85E9 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 3.jpg; path = "../../../../Downloads/DFImageManager-master/Demo/DFImageManager/Resources/3.jpg"; sourceTree = "<group>"; };
+		D1E697CA20445B70008A85E9 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 4.jpg; path = "../../../../Downloads/DFImageManager-master/Demo/DFImageManager/Resources/4.jpg"; sourceTree = "<group>"; };
+		D1E697CB20445B70008A85E9 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 5.jpg; path = "../../../../Downloads/DFImageManager-master/Demo/DFImageManager/Resources/5.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +102,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D19E1FC920461F6200AD2243 /* MapKit.framework in Frameworks */,
+				D1955D9C20441E8300858A7A /* libsqlite3.dylib in Frameworks */,
 				D1955D542044055400858A7A /* CoreGraphics.framework in Frameworks */,
 				D1955D562044055400858A7A /* UIKit.framework in Frameworks */,
 				D1955D522044055400858A7A /* Foundation.framework in Frameworks */,
@@ -101,6 +145,8 @@
 		D1955D502044055400858A7A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D19E1FC820461F6200AD2243 /* MapKit.framework */,
+				D1955D9B20441E8300858A7A /* libsqlite3.dylib */,
 				D1955D512044055400858A7A /* Foundation.framework */,
 				D1955D532044055400858A7A /* CoreGraphics.framework */,
 				D1955D552044055400858A7A /* UIKit.framework */,
@@ -112,13 +158,37 @@
 		D1955D572044055400858A7A /* FriendsAppBySqlite */ = {
 			isa = PBXGroup;
 			children = (
+				D199304C204466C200963DB5 /* add-icon.png */,
+				D1E697C720445B70008A85E9 /* 1.jpg */,
+				D1E697C820445B70008A85E9 /* 2.jpg */,
+				D1E697C920445B70008A85E9 /* 3.jpg */,
+				D1E697CA20445B70008A85E9 /* 4.jpg */,
+				D1E697CB20445B70008A85E9 /* 5.jpg */,
+				D1955D972044188700858A7A /* jets.png */,
+				D1955D86204405A300858A7A /* Friend.h */,
+				D1955D87204405A300858A7A /* Friend.m */,
 				D1955D602044055400858A7A /* JETSAppDelegate.h */,
 				D1955D612044055400858A7A /* JETSAppDelegate.m */,
 				D1955D632044055400858A7A /* Main.storyboard */,
-				D1955D662044055400858A7A /* JETSViewController.h */,
-				D1955D672044055400858A7A /* JETSViewController.m */,
 				D1955D692044055400858A7A /* Images.xcassets */,
 				D1955D582044055400858A7A /* Supporting Files */,
+				D1955D8F20440AF400858A7A /* AddFriendViewController.h */,
+				D1955D9020440AF400858A7A /* AddFriendViewController.m */,
+				D1955D9220440B5800858A7A /* DisplayFriendsViewController.h */,
+				D1955D9320440B5800858A7A /* DisplayFriendsViewController.m */,
+				D1955D9D20444DC200858A7A /* AddImgViewController.h */,
+				D1955D9E20444DC200858A7A /* AddImgViewController.m */,
+				D1995EDC20454282007E6887 /* SetImgNameProtocol.h */,
+				D1995EDD20456ABE007E6887 /* DbManagement.h */,
+				D1995EDE20456ABE007E6887 /* DbManagement.m */,
+				D1995EE020456EE2007E6887 /* UpdateFriendsProtocol.h */,
+				D19E1FC22046097F00AD2243 /* DetailsViewController.h */,
+				D19E1FC32046097F00AD2243 /* DetailsViewController.m */,
+				D19E1FC520461E8900AD2243 /* MapViewController.h */,
+				D19E1FC620461E8900AD2243 /* MapViewController.m */,
+				D19E1FCA2046222100AD2243 /* MapAnnotation.h */,
+				D19E1FCB2046222100AD2243 /* MapAnnotation.m */,
+				D1B9313B2046D48700E10E7B /* LongitudeAndLatitudeProtocol.h */,
 			);
 			path = FriendsAppBySqlite;
 			sourceTree = "<group>";
@@ -229,9 +299,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1E697CE20445B70008A85E9 /* 3.jpg in Resources */,
+				D1E697CC20445B70008A85E9 /* 1.jpg in Resources */,
 				D1955D6A2044055400858A7A /* Images.xcassets in Resources */,
+				D1955D982044188700858A7A /* jets.png in Resources */,
 				D1955D5C2044055400858A7A /* InfoPlist.strings in Resources */,
 				D1955D652044055400858A7A /* Main.storyboard in Resources */,
+				D1E697CD20445B70008A85E9 /* 2.jpg in Resources */,
+				D1E697D020445B70008A85E9 /* 5.jpg in Resources */,
+				D199304D204466C200963DB5 /* add-icon.png in Resources */,
+				D1E697CF20445B70008A85E9 /* 4.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,9 +327,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1955D682044055400858A7A /* JETSViewController.m in Sources */,
+				D1955D9F20444DC200858A7A /* AddImgViewController.m in Sources */,
 				D1955D622044055400858A7A /* JETSAppDelegate.m in Sources */,
+				D1955D9420440B5800858A7A /* DisplayFriendsViewController.m in Sources */,
+				D19E1FC720461E8900AD2243 /* MapViewController.m in Sources */,
 				D1955D5E2044055400858A7A /* main.m in Sources */,
+				D1995EDF20456ABE007E6887 /* DbManagement.m in Sources */,
+				D1955D88204405A300858A7A /* Friend.m in Sources */,
+				D1955D9120440AF400858A7A /* AddFriendViewController.m in Sources */,
+				D19E1FC42046097F00AD2243 /* DetailsViewController.m in Sources */,
+				D19E1FCC2046222100AD2243 /* MapAnnotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +545,7 @@
 				D1955D822044055500858A7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D1955D832044055500858A7A /* Build configuration list for PBXNativeTarget "FriendsAppBySqliteTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +554,7 @@
 				D1955D852044055500858A7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
